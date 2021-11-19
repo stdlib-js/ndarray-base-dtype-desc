@@ -20,7 +20,7 @@ limitations under the License.
 
 # dtypeDesc
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Return the description for a specified [data type][@stdlib/ndarray/dtypes].
 
@@ -71,7 +71,7 @@ var desc = dtypeDesc( 'foobar' );
 // returns null
 ```
 
-If not provided a [data type][@stdlib/ndarray/dtypes] string, the function returns an object mapping [data type][@stdlib/ndarray/dtypes] strings to descriptions.
+If not provided a [data type][@stdlib/ndarray/dtypes] value, the function returns an object mapping [data type][@stdlib/ndarray/dtypes] strings to descriptions.
 
 ```javascript
 var obj = dtypeDesc();
@@ -191,8 +191,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ndarray-base-dtype-desc/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/ndarray-base-dtype-desc?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/ndarray-base-dtype-desc.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/ndarray-base-dtype-desc/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
