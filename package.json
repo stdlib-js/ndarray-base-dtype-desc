@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-dtype-desc",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Return the description for a provided data type.",
   "license": "Apache-2.0",
   "author": {
