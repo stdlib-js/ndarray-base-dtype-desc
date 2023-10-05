@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var table = require( './../../dist/table.js' );
+var table = require( './../../lib/table.js' );
 var dtypeDesc = require( './../../dist' );
 
 
