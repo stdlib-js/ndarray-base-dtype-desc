@@ -45,30 +45,38 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/ndarray-base-dtype-desc
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var dtypeDesc = require( '@stdlib/ndarray-base-dtype-desc' );
+dtypeDesc = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype-desc@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var dtypeDesc = require( 'path/to/vendor/umd/ndarray-base-dtype-desc/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype-desc@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.dtypeDesc;
+})();
+</script>
 ```
 
 #### dtypeDesc( \[dtype] )
@@ -117,8 +125,13 @@ var obj = dtypeDesc();
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var dtypeDesc = require( '@stdlib/ndarray-base-dtype-desc' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype-desc@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 var dtypes;
 var desc;
@@ -143,6 +156,11 @@ for ( i = 0; i < dtypes.length; i++ ) {
     desc = dtypeDesc( dtypes[ i ] );
     console.log( '%s: %s', dtypes[ i ], desc );
 }
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -234,7 +252,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-dtype-desc/main/LICENSE
 
-[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes
+[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes/tree/umd
 
 </section>
 
