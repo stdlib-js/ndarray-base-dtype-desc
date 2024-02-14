@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dtypeDesc from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype-desc@deno/mod.js';
+import dtypeDesc from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype-desc@v0.2.0-deno/mod.js';
 ```
 
 #### dtypeDesc( \[dtype] )
@@ -102,7 +102,7 @@ var obj = dtypeDesc();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import dtypeDesc from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype-desc@deno/mod.js';
+import dtypeDesc from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype-desc@v0.2.0-deno/mod.js';
 
 var dtypes;
 var desc;
