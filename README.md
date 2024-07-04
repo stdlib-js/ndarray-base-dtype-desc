@@ -122,11 +122,7 @@ var obj = dtypeDesc();
 ```javascript
 var dtypeDesc = require( '@stdlib/ndarray-base-dtype-desc' );
 
-var dtypes;
-var desc;
-var i;
-
-dtypes = [
+var dtypes = [
     'float64',
     'float32',
     'int8',
@@ -141,9 +137,9 @@ dtypes = [
     'foobar'
 ];
 
+var i;
 for ( i = 0; i < dtypes.length; i++ ) {
-    desc = dtypeDesc( dtypes[ i ] );
-    console.log( '%s: %s', dtypes[ i ], desc );
+    console.log( '%s: %s', dtypes[ i ], dtypeDesc( dtypes[ i ] ) );
 }
 ```
 
