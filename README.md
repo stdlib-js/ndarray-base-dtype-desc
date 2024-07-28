@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dtypeDesc from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype-desc@esm/index.mjs';
+import dtypeDesc from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype-desc@v0.2.2-esm/index.mjs';
 ```
 
 #### dtypeDesc( \[dtype] )
@@ -107,7 +107,7 @@ var obj = dtypeDesc();
 <body>
 <script type="module">
 
-import dtypeDesc from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype-desc@esm/index.mjs';
+import dtypeDesc from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype-desc@v0.2.2-esm/index.mjs';
 
 var dtypes = [
     'float64',
