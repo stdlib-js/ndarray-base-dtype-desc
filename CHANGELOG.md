@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-28)
+## Unreleased (2025-12-28)
 
 <section class="features">
 
@@ -22,6 +22,8 @@
 
 <details>
 
+-   [`3977119`](https://github.com/stdlib-js/stdlib/commit/39771197cd35f28f98740f9818a973b0e551e5af) - **test:** fix broken test _(by Athan Reines)_
+-   [`6c8898d`](https://github.com/stdlib-js/stdlib/commit/6c8898d91f98aba98914c5a5963b4e3b0cc24811) - **test:** add tests for DataType instances _(by Athan Reines)_
 -   [`9a4ffa0`](https://github.com/stdlib-js/stdlib/commit/9a4ffa071ed1a891b0520088ff8e6b5815142f20) - **feat:** add half-precision complex data type _(by Athan Reines)_
 
 </details>
