@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-dtype-desc",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Return the description for a provided data type.",
   "license": "Apache-2.0",
   "author": {
@@ -80,7 +80,6 @@
     "utils",
     "util"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
